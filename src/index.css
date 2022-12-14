@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .userCard {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .userCard > button {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 10px;
+   
+  }
+  
+  .userCard > img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .listUserContainer {
+    display: grid;
+    grid-template-columns: repeat(4,  1fr);
+  }
+  
+  .home > h1 {
+    background-color: rgba(179, 223, 0, 0.653);
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  
+  
